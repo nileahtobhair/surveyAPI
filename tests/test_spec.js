@@ -83,7 +83,7 @@ frisby.create('Testing the surveys/find endpoint -POST - which uses post data to
   .expectHeader('Content-Type', 'application/json')
   .expectHeaderContains('content-type', 'application/json')
   .toss();
-/*
+
   //Testing the /surveys endpoint -POST
 frisby.create('Testing the surveys/find endpoint -POST - which uses post data to create a new survey')
   .post('https://survey-api.herokuapp.com/api/surveys/',
@@ -102,7 +102,7 @@ frisby.create('Testing the surveys/find endpoint -POST - which uses post data to
   .expectStatus(200)
   .expectHeader('Content-Type', 'application/json')
   .expectHeaderContains('content-type', 'application/json')
-  .toss();*/
+  .toss();
 
 //Testing the  /surveys/:survey_id endpoint -DELETE
 /*frisby.create("/surveys/:survey_id endpoint testing - DELETE")
